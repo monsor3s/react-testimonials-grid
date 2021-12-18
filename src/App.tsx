@@ -7,8 +7,6 @@ function App() {
     <>
     <GlobalStyle />
     <IndexHomePage />
-    <div className="App">
-    </div>
     </>
   );
 }
