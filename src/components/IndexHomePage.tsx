@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { BodySection, FooterSection, HeaderSection, HomePage, HomePageContainer, SectionDaniel, Subtitle, Title } from './styles'
 
 export const IndexHomePage = () => {
     return (

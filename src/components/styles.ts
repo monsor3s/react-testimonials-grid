@@ -11,3 +11,27 @@ export const HomePageContainer = styled.div`
     width: 800px;
     height: 600px;
 `;
+
+export const SectionDaniel = styled.div`
+
+`;
+
+export const HeaderSection = styled.div`
+
+`;
+
+export const Title = styled.h1`
+
+`;
+
+export const Subtitle = styled.h2`
+
+`;
+
+export const BodySection = styled.div`
+
+`;
+
+export const FooterSection = styled.div`
+
+`;
