@@ -5,11 +5,14 @@ export const HomePage = styled.div`
     height: 100vh;
     position: relative;
     display: flex;
+    justify-content: center;
+    align-items: center;
 `;
 
 export const HomePageContainer = styled.div`
-    width: 800px;
+    width: 1000px;
     height: 600px;
+    background-color: var(--light-gray-blue);
 `;
 
 export const SectionDaniel = styled.div`
