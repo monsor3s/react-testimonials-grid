@@ -16,11 +16,11 @@ export const HomePageContainer = styled.div`
 `;
 
 export const SectionDaniel = styled.div`
-    width: 450px;
-    height: 200px;
+    width: 460px;
+    height: 230px;
     background-color: var(--violet);
     border-radius: 0.6rem;
-    padding: 1rem;
+    padding: 2rem;
 `;
 
 export const HeaderSection = styled.div`
@@ -36,25 +36,32 @@ export const LogoDaniel = styled.img`
 `;
 
 export const Title = styled.h1`
-    font-size: 1rem;
+    font-size: 13px;
     color: var(--light-gray);
     display: inline-block;
     position: absolute;
+    margin-left: 1rem;
 `;
 
 export const Subtitle = styled.h2`
-    font-size: 1rem;
+    font-size: 10px;
     color: var(--light-gray);
     display: inline-block;
+    margin-left: 1rem;
+    opacity: 50%;
 `;  
 
-export const BodySection = styled.div`
-    font-size: 1.5rem;
+export const BodySection = styled.p`
+    font-size: 17px;
+    font-weight: 600;
     color: var(--white);
-
+    margin-top: 1rem;
 `;
 
-export const FooterSection = styled.div`
-        font-size: 1.2rem;
+export const FooterSection = styled.p`
+        font-size: 11px;
+        line-height: 1.5rem;
         color: var(--light-gray);
+        margin-top: 1rem;
+        opacity: 70%;
 `;
