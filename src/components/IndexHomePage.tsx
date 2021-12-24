@@ -1,5 +1,6 @@
 import * as React from 'react'
-import { BodySection, FooterSection, HeaderSection, HomePage, HomePageContainer, SectionDaniel, Subtitle, Title } from './styles'
+import { BodySection, FooterSection, HeaderSection, HomePage, HomePageContainer, LogoDaniel, SectionDaniel, Subtitle, Title } from './styles'
+import imgDaniel from '../images/image-daniel.jpg'
 
 export const IndexHomePage = () => {
     return (
@@ -7,6 +8,7 @@ export const IndexHomePage = () => {
             <HomePageContainer>
             <SectionDaniel>
                 <HeaderSection>
+                    <LogoDaniel src={imgDaniel} alt="Imagem Daniel"/>
                     <Title>Daniel Clifford</Title>
                     <Subtitle>Verified Graduate</Subtitle>
                 </HeaderSection>

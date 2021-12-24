@@ -20,22 +20,33 @@ export const SectionDaniel = styled.div`
     height: 200px;
     background-color: var(--violet);
     border-radius: 0.6rem;
+    padding: 1rem;
 `;
 
 export const HeaderSection = styled.div`
     
 `;
 
+export const LogoDaniel = styled.img`
+    width: 25px;
+    border: 1px solid var(--light-gray-blue);
+    border-radius: 3rem;
+    display: inline-block;
+    position: relative;
+`;
+
 export const Title = styled.h1`
     font-size: 1rem;
-    color: var(--white);
+    color: var(--light-gray);
+    display: inline-block;
+    position: absolute;
 `;
 
 export const Subtitle = styled.h2`
     font-size: 1rem;
-    color: var(--white);
-
-`;
+    color: var(--light-gray);
+    display: inline-block;
+`;  
 
 export const BodySection = styled.div`
     font-size: 1.5rem;
@@ -45,6 +56,5 @@ export const BodySection = styled.div`
 
 export const FooterSection = styled.div`
         font-size: 1.2rem;
-        color: var(--light-gray-blue);
-
+        color: var(--light-gray);
 `;
