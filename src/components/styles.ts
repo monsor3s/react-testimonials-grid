@@ -13,6 +13,11 @@ export const HomePageContainer = styled.div`
     width: 1000px;
     height: 600px;
     background-color: var(--light-gray-blue);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px; 
 `;
 
 export const SectionDaniel = styled.div`
@@ -28,7 +33,7 @@ export const HeaderSection = styled.div`
     
 `;
 
-export const LogoDaniel = styled.img`
+export const Logo = styled.img`
     width: 25px;
     border: 1px solid var(--light-gray-blue);
     border-radius: 3rem;
@@ -77,3 +82,41 @@ export const FooterSection = styled.p`
         margin-top: 1rem;
         opacity: 70%;
 `;
+
+export const SectionJonathan = styled.div`
+    z-index: 0;
+    width: 220px;
+    height: 230px;
+    background-color: var(--dark-gray);
+    border-radius: 0.6rem;
+    padding: 2rem;
+`;
+
+export const SectionKira = styled.div`
+    z-index: 0;
+    width: 220px;
+    height: 600px;
+    background-color: var(--white);
+    border-radius: 0.6rem;
+    padding: 2rem;
+`;
+
+export const TitleKira = styled(Title)`
+    color: var(--dark-gray-blue);
+`;
+
+export const SubtitleKira = styled(Subtitle)`
+    color: var(--dark-gray-blue);
+`;
+
+export const BodySectionKira = styled(BodySection)`
+    color: var(--dark-gray-blue);
+`;
+
+export const FooterSectionKira = styled(FooterSection)`
+    color: var(--dark-gray-blue);
+    font-size: 13px;
+    line-height: 2rem;
+    opacity: 70%;
+`;
+
