@@ -76,7 +76,7 @@ export const BodySection = styled.p`
 
 export const FooterSection = styled.p`
         z-index: 2;
-        font-size: 11px;
+        font-size: 12px;
         line-height: 1.5rem;
         color: var(--light-gray);
         margin-top: 1rem;
@@ -115,8 +115,10 @@ export const BodySectionKira = styled(BodySection)`
 
 export const FooterSectionKira = styled(FooterSection)`
     color: var(--dark-gray-blue);
-    font-size: 13px;
     line-height: 2rem;
     opacity: 70%;
 `;
 
+export const SectionJeanette = styled(SectionJonathan)`
+    background-color: var(--white);
+`;
