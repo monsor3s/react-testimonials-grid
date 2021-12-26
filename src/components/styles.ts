@@ -16,6 +16,7 @@ export const HomePageContainer = styled.div`
 `;
 
 export const SectionDaniel = styled.div`
+    z-index: 0;
     width: 460px;
     height: 230px;
     background-color: var(--violet);
@@ -36,9 +37,11 @@ export const LogoDaniel = styled.img`
 `;
 
 export const QuoteMark = styled.img`
-    z-index: 1;
+    z-index: 0;
+    width: 90px;
+    height: 85px;
     position: absolute;
-    margin: 0 0 0 24rem;
+    margin: -2rem 0 0 24.5rem;
     opacity: 70%;
 `;
 
@@ -59,7 +62,7 @@ export const Subtitle = styled.h2`
 `;  
 
 export const BodySection = styled.p`
-    z-index: 0;
+    z-index: 2;
     font-size: 17px;
     font-weight: 600;
     color: var(--white);
@@ -67,6 +70,7 @@ export const BodySection = styled.p`
 `;
 
 export const FooterSection = styled.p`
+        z-index: 2;
         font-size: 11px;
         line-height: 1.5rem;
         color: var(--light-gray);
