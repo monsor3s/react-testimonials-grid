@@ -35,6 +35,13 @@ export const LogoDaniel = styled.img`
     position: relative;
 `;
 
+export const QuoteMark = styled.img`
+    z-index: 1;
+    position: absolute;
+    margin: 0 0 0 24rem;
+    opacity: 70%;
+`;
+
 export const Title = styled.h1`
     font-size: 13px;
     color: var(--light-gray);
@@ -52,6 +59,7 @@ export const Subtitle = styled.h2`
 `;  
 
 export const BodySection = styled.p`
+    z-index: 0;
     font-size: 17px;
     font-weight: 600;
     color: var(--white);
