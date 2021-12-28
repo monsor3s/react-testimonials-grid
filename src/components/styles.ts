@@ -22,6 +22,12 @@ export const HomePageContainer = styled.div`
     grid-column-gap: 20px;
     grid-row-gap: 20px; 
     
+    @media only screen and (max-width: 375px) {
+        width: 375px;
+        height: 1966px;
+        display: flex;
+        flex-direction: column;
+    }
 `;
 
 export const SectionDaniel = styled.div`
