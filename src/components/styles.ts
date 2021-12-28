@@ -27,6 +27,8 @@ export const HomePageContainer = styled.div`
         height: 1966px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 `;
 
@@ -40,6 +42,12 @@ export const SectionDaniel = styled.div`
     padding: 2rem;
     
     grid-area: 1 / 1;
+
+    @media only screen and (max-width: 375px) {
+        width: 320px;
+        height: 350px;
+        position: relative;
+    }
 `;
 
 export const HeaderSection = styled.div`
@@ -106,7 +114,10 @@ export const SectionJonathan = styled.div`
 
     grid-area: 1 / 3;
 
-
+    @media only screen and (max-width: 375px) {
+        width: 320px;
+        height: 180px;
+    }
 `;
 
 export const SectionKira = styled.div`
@@ -120,6 +131,11 @@ export const SectionKira = styled.div`
 
     grid-area: 1 / 4;
 
+    @media only screen and (max-width: 375px) {
+        position: relative;
+        width: 320px;
+        height: 350px;
+    }
 `;
 
 export const TitleKira = styled(Title)`
@@ -143,6 +159,11 @@ export const FooterSectionKira = styled(FooterSection)`
 export const SectionJeanette = styled(SectionJonathan)`
     background-color: var(--white);
     grid-area: 2 / 1;
+
+    @media only screen and (max-width: 375px) {
+        width: 320px;
+        height: 180px;
+    }
 `;
 
 export const TitleJeanette = styled(TitleKira)`
@@ -153,13 +174,26 @@ export const SubtitleJeanette = styled(SubtitleKira)`
 `;
 
 export const BodySectionJeanette = styled(BodySectionKira)`
+        br {
+                display: none;
+            }
 `;
 
 export const FooterSectionJeanette = styled(FooterSectionKira)`
     margin-top: 3rem;
+
+    @media only screen and (max-width: 375px) {
+        margin-top: 0;
+
+    }
 `;
 
 export const SectionPatrick = styled(SectionDaniel)`
     background-color: var(--dark-black-blue);
     grid-area: 2 / 2;
+
+    @media only screen and (max-width: 375px) {
+        width: 320px;
+        height: 350px;
+    }
 `;
