@@ -9,6 +9,10 @@ export const HomePage = styled.div`
     align-items: center;
     background-color: var(--light-gray-blue);
 
+    @media only screen and (max-width: 375px) {
+        
+    }
+
 `;
 
 export const HomePageContainer = styled.div`
@@ -45,8 +49,13 @@ export const SectionDaniel = styled.div`
 
     @media only screen and (max-width: 375px) {
         width: 320px;
-        height: 350px;
+        height: 460px;
         position: relative;
+        padding: 3rem;
+
+        br {
+            display: none;
+        }
     }
 `;
 
@@ -69,6 +78,10 @@ export const QuoteMark = styled.img`
     position: absolute;
     margin: -2rem 0 0 24.5rem;
     opacity: 70%;
+
+    @media only screen and (max-width: 375px) {
+        margin: -2rem 0 0 17rem;
+    }
 `;
 
 export const Title = styled.h1`
@@ -93,6 +106,13 @@ export const BodySection = styled.p`
     font-weight: 600;
     color: var(--white);
     margin-top: 1rem;
+
+    @media only screen and (max-width: 375px) {
+
+        br {
+            display: none;
+        }
+    }
 `;
 
 export const FooterSection = styled.p`
@@ -102,6 +122,11 @@ export const FooterSection = styled.p`
         color: var(--light-gray);
         margin-top: 1rem;
         opacity: 70%;
+
+        @media only screen and (max-width: 375px) {
+            margin-top: 1rem;
+            line-height: 1.8rem;
+        }
 `;
 
 export const SectionJonathan = styled.div`
@@ -117,6 +142,7 @@ export const SectionJonathan = styled.div`
     @media only screen and (max-width: 375px) {
         width: 320px;
         height: 180px;
+        padding: 2rem 3rem;
     }
 `;
 
@@ -134,7 +160,8 @@ export const SectionKira = styled.div`
     @media only screen and (max-width: 375px) {
         position: relative;
         width: 320px;
-        height: 350px;
+        height: 460px;
+        padding: 2rem 3rem;
     }
 `;
 
@@ -194,6 +221,6 @@ export const SectionPatrick = styled(SectionDaniel)`
 
     @media only screen and (max-width: 375px) {
         width: 320px;
-        height: 350px;
+        height: 460px;
     }
 `;
