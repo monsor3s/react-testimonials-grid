@@ -7,14 +7,15 @@ export const HomePage = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--light-gray-blue);
+
 `;
 
 export const HomePageContainer = styled.div`
-    width: 1000px;
-    height: 600px;
+    width: 940px;
+    height: 485px;
     position: relative;
     overflow: hidden;
-    background-color: var(--light-gray-blue);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
