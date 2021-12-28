@@ -88,7 +88,7 @@ export const IndexHomePage = () => {
                         <SubtitleJeanette>Verified Graduate</SubtitleJeanette>
                     </HeaderSection>
                 <BodySectionJeanette>   
-                An overall wonderful and rewarding experience
+                An overall wonderful<br/> and rewarding<br/> experience
                 </BodySectionJeanette>
                 <FooterSectionJeanette>
                 “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living 
