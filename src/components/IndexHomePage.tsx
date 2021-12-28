@@ -1,8 +1,10 @@
 import * as React from 'react'
 import { 
     BodySection, 
+    BodySectionJeanette, 
     BodySectionKira, 
     FooterSection, 
+    FooterSectionJeanette, 
     FooterSectionKira, 
     HeaderSection, 
     HomePage, 
@@ -13,15 +15,19 @@ import {
     SectionJeanette, 
     SectionJonathan, 
     SectionKira, 
+    SectionPatrick, 
     Subtitle, 
+    SubtitleJeanette, 
     SubtitleKira, 
     Title,
+    TitleJeanette,
     TitleKira
 } from './styles'
 import imgDaniel from '../images/image-daniel.jpg';
 import imgJonathan from '../images/image-jonathan.jpg';
 import imgKira from '../images/image-kira.jpg';
 import imgJeanette from '../images/image-jeanette.jpg';
+import imgPatrick from '../images/image-patrick.jpg';
 import imgQuote from '../images/bg-pattern-quotation.svg';
 
 export const IndexHomePage = () => {
@@ -78,17 +84,30 @@ export const IndexHomePage = () => {
                     <SectionJeanette>
                     <HeaderSection>
                         <Logo src={imgJeanette} alt="Imagem Jeanette"/>
-                        <Title>Jeanette Harmon</Title>
-                        <Subtitle>Verified Graduate</Subtitle>
+                        <TitleJeanette>Jeanette Harmon</TitleJeanette>
+                        <SubtitleJeanette>Verified Graduate</SubtitleJeanette>
                     </HeaderSection>
-                <BodySection>   
+                <BodySectionJeanette>   
                 An overall wonderful and rewarding experience
-                </BodySection>
-                <FooterSection>
+                </BodySectionJeanette>
+                <FooterSectionJeanette>
                 “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living 
                 while doing something I love. ”
-                </FooterSection>
+                </FooterSectionJeanette>
                 </SectionJeanette>
+                        <SectionPatrick>
+                            <HeaderSection>
+                                <Logo src={imgPatrick} alt="Imagem Patrick"/>
+                                <Title>Patrick Abrams</Title>
+                                <Subtitle>Verified Graduate</Subtitle>
+                            </HeaderSection>
+                                <BodySection>   
+                                    Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and learning from their experiences was easy.
+                                </BodySection>
+                                    <FooterSection>
+                                    “ The staff seem genuinely concerned about my progress which I find really refreshing. The program gave me the confidence necessary to be able to go out in the world and present myself as a capable junior developer. The standard is above the rest. You will get the personal attention you need from an incredible community of smart and amazing people. ”
+                                    </FooterSection>
+                </SectionPatrick>
             </HomePageContainer>
         </HomePage> 
     )

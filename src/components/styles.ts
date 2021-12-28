@@ -12,21 +12,27 @@ export const HomePage = styled.div`
 export const HomePageContainer = styled.div`
     width: 1000px;
     height: 600px;
+    position: relative;
+    overflow: hidden;
     background-color: var(--light-gray-blue);
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px; 
+    
 `;
 
 export const SectionDaniel = styled.div`
     z-index: 0;
     width: 460px;
     height: 230px;
+    position: absolute;
     background-color: var(--violet);
     border-radius: 0.6rem;
     padding: 2rem;
+    
+    grid-area: 1 / 1;
 `;
 
 export const HeaderSection = styled.div`
@@ -84,12 +90,16 @@ export const FooterSection = styled.p`
 `;
 
 export const SectionJonathan = styled.div`
-    z-index: 0;
+    z-index: 1;
     width: 220px;
     height: 230px;
     background-color: var(--dark-gray);
     border-radius: 0.6rem;
     padding: 2rem;
+
+    grid-area: 1 / 3;
+
+
 `;
 
 export const SectionKira = styled.div`
@@ -99,6 +109,10 @@ export const SectionKira = styled.div`
     background-color: var(--white);
     border-radius: 0.6rem;
     padding: 2rem;
+    position: absolute;
+
+    grid-area: 1 / 4;
+
 `;
 
 export const TitleKira = styled(Title)`
@@ -121,4 +135,22 @@ export const FooterSectionKira = styled(FooterSection)`
 
 export const SectionJeanette = styled(SectionJonathan)`
     background-color: var(--white);
+    grid-area: 2 / 1;
+`;
+
+export const TitleJeanette = styled(TitleKira)`
+`;
+
+export const SubtitleJeanette = styled(SubtitleKira)`
+`;
+
+export const BodySectionJeanette = styled(BodySectionKira)`
+`;
+
+export const FooterSectionJeanette = styled(FooterSectionKira)`
+`;
+
+export const SectionPatrick = styled(SectionDaniel)`
+    background-color: var(--dark-black-blue);
+    grid-area: 2 / 2;
 `;
