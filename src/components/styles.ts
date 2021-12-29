@@ -7,7 +7,7 @@ export const HomePage = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--light-gray-blue);
+    background-color: var(--light-gray);
 
     @media only screen and (max-width: 375px) {
         
@@ -100,20 +100,25 @@ export const Subtitle = styled.h2`
     opacity: 50%;
 `;  
 
+
 export const BodySection = styled.p`
     z-index: 2;
     font-size: 17px;
     font-weight: 600;
     color: var(--white);
-    margin-top: 1rem;
+    margin: 1rem 0 2rem 0;
 
     @media only screen and (max-width: 375px) {
+        line-height: 2.2rem;
+        font-size: 18px;
+        text-align: left;
 
         br {
             display: none;
         }
     }
 `;
+
 
 export const FooterSection = styled.p`
         z-index: 2;
