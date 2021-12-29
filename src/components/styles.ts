@@ -106,7 +106,7 @@ export const BodySection = styled.p`
     font-size: 17px;
     font-weight: 600;
     color: var(--white);
-    margin: 1rem 0 2rem 0;
+    margin: 1rem 0 1rem 0;
 
     @media only screen and (max-width: 375px) {
         line-height: 2.2rem;
@@ -129,8 +129,8 @@ export const FooterSection = styled.p`
         opacity: 70%;
 
         @media only screen and (max-width: 375px) {
-            margin-top: 1rem;
-            line-height: 1.8rem;
+            font-size: 14px;
+            line-height: 2.2rem;
         }
 `;
 
@@ -150,6 +150,7 @@ export const SectionJonathan = styled.div`
         padding: 2rem 3rem;
     }
 `;
+
 
 export const SectionKira = styled.div`
     z-index: 0;
@@ -184,7 +185,7 @@ export const BodySectionKira = styled(BodySection)`
 
 export const FooterSectionKira = styled(FooterSection)`
     color: var(--dark-gray-blue);
-    line-height: 1.7rem;
+    line-height: 1.6rem;
     opacity: 70%;
 `;
 
@@ -227,5 +228,20 @@ export const SectionPatrick = styled(SectionDaniel)`
     @media only screen and (max-width: 375px) {
         width: 320px;
         height: 460px;
+    }
+`;
+
+export const BodySectionPatrick = styled(BodySection)`
+
+    @media only screen and (max-width: 375px) {
+        font-size: 19px;
+    }
+`;
+
+export const FooterSectionPatrick = styled(FooterSection)`
+
+    @media only screen and (max-width: 375px) {
+        margin-top: 2rem;    
+        font-size: 15px;
     }
 `;
