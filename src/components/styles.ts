@@ -80,7 +80,7 @@ export const QuoteMark = styled.img`
     opacity: 70%;
 
     @media only screen and (max-width: 375px) {
-        margin: -2rem 0 0 17rem;
+        margin: -2rem 0 0 15rem;
     }
 `;
 
